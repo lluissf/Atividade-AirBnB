@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.reserva-container {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.reserva-form h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.pequeno {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 4px;
+  color: #555;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.input-group div {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.data,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.input-full {
+  margin-bottom: 16px;
+}
+
+#reserva {
+  width: 100%;
+  background: linear-gradient(90deg, #e6005a, #c20078);
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 24px;
+  transition: background 0.3s;
+}
+
+#reserva:hover {
+  background: linear-gradient(90deg, #c20078, #e6005a);
+}
+
+.results p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.listas ul {
+  list-style: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+#valor-total-semimp {
+  font-weight: bold;
+  font-size: 16px;
+}
